@@ -1,0 +1,71 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style>
+		body{
+		background-color: #A9A9A9;
+		}
+			.form{
+			background-color:white;
+			margin-left:30%;
+			margin-right:30%;
+			padding-left:3%;
+			border-style:solid;
+			border-width:1px;
+			border-color:black;
+			margin-top:60px;
+			}
+			.sub{
+			width:20px;
+			}
+		</style>
+		<script>
+			function clicksimpan(){
+			alert ('Berhasil Tersimpan');
+			}
+		</script>
+	<head>
+	<body>
+		
+	<div class="form"><br>
+	<table >
+	<tr>
+		<center><h1 style="margin-bottom:40px;">Form Data Diri</h1></center>
+	</tr>
+	<tr>
+		<td>Nama</td>
+		<td>:<input type="text" name="nama" style="margin-left:10px" size="30" maxlength="30"></td>
+	</tr>
+	<tr>
+		<td>Jenis Kelamin</td>	
+		<td>:<input type="radio" name="jenis" value="Laku-laki" style="margin-left:10px"/ >Laki-laki <input type="radio" name="jenis" value="Perempuan" />Perempuan</td>
+	</tr>	
+	<tr>
+		<td>Email</td> 
+		<td>:<input type="text" name="email" style="margin-left:10px" size="30" maxlength="30"></td>
+	</tr>
+	<tr>
+		<td>Alamat</td> 
+		<td>:<input type="text" name="alamat" style="margin-left:10px" size="30" maxlength="30"></td>
+	</tr>
+	<tr>
+		<td>Kota</td>
+		<td>:<select name="asal" style="margin-left:10px">
+		<option value="">(Pilih kota)</option>
+		<option value="Ngawi">Ngawi</option>
+		<option value="Surabaya">Surabaya</option>
+		<option value="Nganjuk">Nganjuk</option>
+		<option value="Jombang">Jombang</option>
+		<option value="Madiun">Madiun</option>
+		<option value="Nganjuk">Mojokerto</option>
+		<option value="Sidoarjo">Sidoarjo</option>
+	</select></td>
+	</tr>
+	<tr>	
+		<td>Pesan</td>
+		<td>:<textarea nama="pesan" rows="5" cols="31" style="margin-left:10px"></textarea></td>
+	</table><br>
+	<center><input type="submit" onClick="clicksimpan()" value="SIMPAN"></center><br>
+	</body>
+</html>
